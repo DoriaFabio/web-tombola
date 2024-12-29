@@ -24,13 +24,12 @@ extraction.addEventListener("click", function () {
     randomNumber.innerHTML = random;
     nuovoArray = nuovoArray.filter(elemento => elemento !== random);
     console.log(nuovoArray);
-    // numeroTombola.forEach((el) => {
-    //     console.log(el);
-
-    //     if (el == random) {
-    //          el.classList.add("active");
-    //     }
-    // });
+    numeroTombola.forEach((el) => {
+        console.log(el);
+        if (el == random) {
+            el.classList.add("active");
+        }
+    });
 });
 
 end.addEventListener("click", function () {

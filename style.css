@@ -17,3 +17,39 @@ hr {
 .mydim {
     font-size: 35px;
 }
+
+.myrow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+
+.numeri {
+    font-size: 25px;
+}
+
+.mycol {
+    width: calc((100% - 135px)/10);
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #number {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+} */
+
+/* .col {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 100%;
+    width: calc((100%)/10);
+} */

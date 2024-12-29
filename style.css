@@ -3,3 +3,17 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.myspan {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+hr {
+    max-width: 200px;
+}
+
+.mydim {
+    font-size: 35px;
+}

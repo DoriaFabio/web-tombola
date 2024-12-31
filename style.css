@@ -146,4 +146,8 @@
     .size {
         font-size: 15px;
     }
+
+    .bg-image {
+        background-repeat: repeat;
+    }
 }

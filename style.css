@@ -148,6 +148,8 @@
     }
 
     .bg-image {
-        background-repeat: repeat;
+        background-image: url(./image/natale2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

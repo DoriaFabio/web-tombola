@@ -36,7 +36,7 @@
 }
 
 .mycol {
-    width: calc((100% - 135px)/10);
+    width: calc((100% - 180px)/10);
     aspect-ratio: 1/1;
     background-color: white;
     border-radius: 50%;
@@ -110,7 +110,7 @@
         gap: 10px;
     }
     .mycol {
-        width: calc((100% - 100px)/10);
+        width: calc((100% - 130px)/10);
     }
 
     .size {
@@ -149,7 +149,7 @@
 
     .bg-image {
         background-image: url(./image/natale2.jpg);
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: cover;
     }
 }

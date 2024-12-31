@@ -20,6 +20,17 @@ numero.innerHTML += template;
 let nuovoArray = numeroTombola;
 const buttonNumber = document.querySelectorAll("span");
 console.log(buttonNumber);
+buttonNumber.forEach((el) => {
+    let c = parseInt(el.id)
+    console.log(c);
+    if (c % 5 == 0) {
+        el.classList.add("me-3");
+    }
+    console.log(el.id[0]);
+    if ((c == 30 || el.id[0] == 2 || el.id[0] == 5 || c == 60) && (c != 5 && c != 2 && c != 50 && c!= 20) ) {
+        el.classList.add("mb-3");
+    }
+});
 extraction.addEventListener("click", function () {
     let indice = Math.floor(Math.random() * nuovoArray.length);
     let random = nuovoArray[indice];

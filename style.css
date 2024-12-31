@@ -10,6 +10,12 @@
     width: 100px;
 }
 
+.bg-image {
+    background-image:url(./image/natale1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .mydim {
     font-size: 35px;
 }
@@ -71,7 +77,10 @@
 }
 
 .active {
-    background-color: rgb(243, 59, 59);
+    background-image: url(./image/palla1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: -3px 3px 0px 0px rgba(168,43,62,1);
 }
 

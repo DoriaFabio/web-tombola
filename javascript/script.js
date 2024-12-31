@@ -38,4 +38,5 @@ extraction.addEventListener("click", function () {
 
 end.addEventListener("click", function () {
     alert("Finito il gioco");
+    location.reload();
 });

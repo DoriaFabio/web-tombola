@@ -3,7 +3,6 @@ let numeroTombola = [];
 const extraction = document.getElementById("extraction");
 const end = document.getElementById("end");
 const randomNumber = document.getElementById("random");
-// const tablenumber = document.getElementById("numero");
 
 
 for (let i = 1; i <= 90; i++) {

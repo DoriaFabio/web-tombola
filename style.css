@@ -25,6 +25,10 @@
     font-size: 25px;
 }
 
+.size {
+    font-size: 25px;
+}
+
 .mycol {
     width: calc((100% - 135px)/10);
     aspect-ratio: 1/1;
@@ -69,4 +73,68 @@
 .active {
     background-color: rgb(243, 59, 59);
     box-shadow: -3px 3px 0px 0px rgba(168,43,62,1);
+}
+
+@media  screen and (max-width: 992px){
+    .numeri {
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .numeri {
+        font-size: 15px;
+    }
+
+    #extraction {
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    
+    #end {
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    .myrow {
+        gap: 10px;
+    }
+    .mycol {
+        width: calc((100% - 100px)/10);
+    }
+
+    .size {
+        font-size: 15px;
+    }
+    .myspan {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+    }
+    .mydim {
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 576px){
+    .numeri {
+        font-size: 10px;
+    }
+
+    #extraction {
+        font-size: 8px;
+        padding: 4px;
+        margin: 5px 0;
+    }
+    
+    #end {
+        font-size: 7px;
+        padding: 4px;
+        margin: 5px 0;
+    }
+
+    .size {
+        font-size: 15px;
+    }
 }
